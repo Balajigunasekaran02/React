@@ -69,7 +69,7 @@ function App() {
         ))}
       </div>
 
-      <p>{winningMessage || message}</p>
+      <p className="title">{winningMessage || message}</p>
       {winningMessage ? (
         <button className="reset_btn" onClick={handleReset}>
           Reset
