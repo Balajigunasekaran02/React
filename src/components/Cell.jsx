@@ -28,7 +28,7 @@ function Cell({ id, cell, setCells, go, setGo, cells, winningMessage }) {
         return cell;
       }
     });
-    console.log(nextCells);
+    //console.log(nextCells);
     setCells(nextCells);
   }
   return (
